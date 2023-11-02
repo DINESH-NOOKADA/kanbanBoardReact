@@ -1,0 +1,51 @@
+.cardDiv{
+    width: 100%;
+    margin-top: 13px;
+    height: 120px;
+    background-color: white;
+    border-radius: 4px;
+}
+.cardDivId{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.cardDivIdNum{
+    font-size: 13px;
+
+}
+
+.cardDivIdPhoto{
+    border-radius: 50%;
+    /* width: 10%; */
+    color: white;
+    align-items: center;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.cardDivName{
+    display: flex;
+    padding:0px 10px 10px 10px;
+}
+
+.cardDivNameText{
+    padding-left: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.cardFeature{
+    display: flex;
+    padding:0px 10px 10px 10px;
+}
+.cardFeatureSym{
+    padding-left: 6px;
+}
+
+.cardFeatureName{
+    padding-top: 1.5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11.2px;
+}

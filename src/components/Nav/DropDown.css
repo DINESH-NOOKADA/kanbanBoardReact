@@ -1,0 +1,68 @@
+
+.NavShow{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.NavShowName{
+    padding-top: 3px;
+    font-size: 14px;
+}
+
+.NavShowDropDown{
+    margin-left: 110px;
+    border: 1px solid rgb(138, 139, 138);
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    padding: 3px;
+}
+.NavShowDropDownOrder{
+    margin-left: 114px;
+    border: 1px solid rgb(138, 139, 138);
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    padding: 3px;
+}
+.NavShowDropDownInput{
+    width: 60px;
+    outline: none;
+    border: white;
+    color: gray;
+}
+
+.NavShowDropShow{
+    position: absolute;
+    margin-left: 111px;
+    border: 1px solid gray;
+    width:85px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px 0px 6px 0px;
+}
+.NavShowDropShowOrder{
+    position: absolute;
+    margin-left: 113.5px;
+    border: 1px solid gray;
+    width:85px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px 0px 6px 0px;
+}
+
+.NavDisplayDropArrow{
+    cursor: pointer;
+}
+
+.NavShowDropShow1{
+    padding: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.NavShowDropShow1:hover{
+    background-color: rgb(235, 234, 234);
+}
