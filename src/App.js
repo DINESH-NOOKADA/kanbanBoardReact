@@ -4,7 +4,11 @@ import Nav from "./components/Nav/Nav";
 import Card from "./components/Card/Card";
 function App() {
   const [data, setData] = useState();
+  const [group, setGroup] = useState(localStorage.getItem('group') || 'Status');
+  const [order, setOrder] = useState(localStorage.getItem('order') || 'Priority');
   useEffect(() => {
+    localStorage.setItem('group', group);
+    localStorage.setItem('order', order);
     const apiUrl = "https://api.quicksell.co/v1/internal/frontend-assignment";
     fetch(apiUrl)
       .then((response) => {
@@ -19,10 +23,11 @@ function App() {
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
-  }, []);
+  }, [group,order]);
 
-  const [group, setGroup] = useState("Status");
-  const [order, setOrder] = useState("Priority");
+  // const [group, setGroup] = useState("Status");
+  // const [order, setOrder] = useState("Priority");
+
 
   const onChangeGroupHandler = (item) => {
     setGroup(item);
